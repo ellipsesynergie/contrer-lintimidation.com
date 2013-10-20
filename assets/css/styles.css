@@ -29,10 +29,6 @@ h1, h2, h3, h4, h5 {
 	}
 	#share > a {
 		background-color: #FFF;
-		background-color: rgba(255, 255, 255, 0.8);	
-	}
-	#share > a:hover {
-		background-color: #FFF;
 	}
 
 	#share a {
@@ -72,22 +68,22 @@ body > ol > li {
 	box-shadow: 0 20px 100px #000;
 }
 #slide-1 {
-	background: url('../img/slide-2.jpg') top center no-repeat;
+	background: url('../img/slide-2-1280.jpg') top center no-repeat;
 }
 #slide-2 {
-	background: url('../img/slide-2.jpg') top center no-repeat;
+	background: url('../img/slide-2-1280.jpg') top center no-repeat;
 }
 #slide-3 {
-	background: url('../img/slide-3.jpg') center center no-repeat;
+	background: url('../img/slide-3-1280.jpg') center center no-repeat;
 }
 #slide-4 {
-	background: url('../img/slide-4.jpg') center center no-repeat;
+	background: url('../img/slide-4-1280.jpg') center center no-repeat;
 }
 #slide-5 {
-	background: url('../img/slide-5.jpg') center center no-repeat;
+	background: url('../img/slide-5-1280.jpg') center center no-repeat;
 }
 #slide-6 {
-	background: url('../img/slide-6.jpg') center bottom no-repeat;
+	background: url('../img/slide-6-1280.jpg') center bottom no-repeat;
 }
 
 	#title {
@@ -111,31 +107,24 @@ body > ol > li {
 	}
 
 	body > ol h1 {
-	    font-size: 400%;
+	    font-size: 300%;
 	    font-weight: normal;
 	    text-shadow: 0 0 2px #222;
 	}
 	
 	body > ol .down {
-		font-size: 600%;
+		font-size: 400%;
 	    font-weight: normal;
 	    color: #FFF;
 	    text-shadow: 0 32px 0 rgba(0, 0, 0, 0.5);
 	    text-decoration: none;
 	}
 
-	body > ol > .dark h1,
-	body > ol > .dark .down {
-		color: #444;
-	}
-	body > ol > .dark .down {
-		text-shadow: 0 32px 0 rgba(255, 255, 255, 0.5);
-	}
-
 	.btn {
 		display: inline-block;
+		margin-top: 20px;
 		padding: 15px 30px;
-		font-size: 220%;
+		font-size: 180%;
 		color: #FFF;
 		border: 3px solid #FFF;
 		text-decoration: none;
@@ -147,8 +136,8 @@ body > ol > li {
 	}
 
 	#slide-6 p {
-		margin-top: 80px;
-		font-size: 200%;
+		margin-top: 40px;
+		font-size: 160%;
 	}
 
 		#slide-6 p a {
@@ -161,3 +150,123 @@ body > ol > li {
 		#slide-6 p a:hover {
 			text-shadow: 5px 5px 0 rgba(255, 255, 255, 0.2);
 		}
+
+@media screen and (min-width: 1281px) {
+
+	body > ol h1 {
+	    font-size: 400%;
+	}
+
+	body > ol .down {
+		font-size: 600%;
+	}
+
+	#slide-1 {
+		background: url('../img/slide-2.jpg') top center no-repeat;
+	}
+	#slide-2 {
+		background: url('../img/slide-2.jpg') top center no-repeat;
+	}
+	#slide-3 {
+		background: url('../img/slide-3.jpg') center center no-repeat;
+	}
+	#slide-4 {
+		background: url('../img/slide-4.jpg') center center no-repeat;
+	}
+	#slide-5 {
+		background: url('../img/slide-5.jpg') center center no-repeat;
+	}
+	#slide-6 {
+		background: url('../img/slide-6.jpg') center bottom no-repeat;
+	}
+
+	.btn {
+		margin-top: 40px;
+		font-size: 220%;
+	}
+
+	#slide-6 p {
+		margin-top: 80px;
+		font-size: 200%;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+
+	#slide-1 {
+		background: url('../img/slide-2-1280x.jpg') top center no-repeat;
+	}
+	#slide-2 {
+		background: url('../img/slide-2-1280x.jpg') top center no-repeat;
+	}
+	#slide-3 {
+		background: url('../img/slide-3-1280x.jpg') center center no-repeat;
+	}
+	#slide-4 {
+		background: url('../img/slide-4-1280x.jpg') center center no-repeat;
+	}
+	#slide-5 {
+		background: url('../img/slide-5-1280x.jpg') center center no-repeat;
+	}
+	#slide-6 {
+		background: url('../img/slide-6-1280x.jpg') center bottom no-repeat;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	#title {
+		padding: 15px 0;
+		font-size: 150%;
+	}
+
+	#share a {
+		padding: 0 5px;
+		height: 30px;
+		line-height: 30px;
+	}
+
+	body > ol h1 {
+	    font-size: 160%;
+	}
+
+	body > ol .down {
+		font-size: 200%;
+		text-shadow: 0 16px 0 rgba(0, 0, 0, 0.5);
+	}
+
+	#slide-1 {
+		background: url('../img/slide-2-x480.jpg') top center no-repeat;
+	}
+	#slide-2 {
+		background: url('../img/slide-2-x480.jpg') top center no-repeat;
+	}
+	#slide-3 {
+		background: url('../img/slide-3-x480.jpg') center center no-repeat;
+	}
+	#slide-4 {
+		background: url('../img/slide-4-x480.jpg') center center no-repeat;
+	}
+	#slide-5 {
+		background: url('../img/slide-5-x480.jpg') center center no-repeat;
+	}
+	#slide-6 {
+		background: url('../img/slide-6-x480.jpg') center bottom no-repeat;
+	}
+
+		body > ol > li > article {
+			margin: 50px auto;
+			max-width: 300px;
+		}
+
+		.btn {
+			display: block;
+			margin-top: 10px;
+			padding: 7.5px 15px;
+			font-size: 140%;
+		}
+
+		#slide-6 p a {
+			font-size: 200%;
+		}
+}

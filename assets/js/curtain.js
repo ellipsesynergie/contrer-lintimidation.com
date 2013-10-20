@@ -26,7 +26,6 @@
 
     // The actual plugin constructor
     function Plugin( element, options ) {
-        var self = this;
 
         // Public attributes
         this.element = element;
