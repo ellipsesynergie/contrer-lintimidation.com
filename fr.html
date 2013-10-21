@@ -19,27 +19,27 @@
 
     <link href="http://fonts.googleapis.com/css?family=Autour+One|Clicker+Script|Headland+One" rel="stylesheet" type="text/css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.pack.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/styles.pack.css?v={version}" type="text/css">
 
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Fav icon -->
-    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
-    <link rel="apple-touch-icon" href="assets/favicons/apple-touch-icon-iphone.png?v=" />
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-touch-icon-ipad.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-touch-icon-iphone4.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-touch-icon-ipad3.png" />
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico?v={version}">
+    <link rel="apple-touch-icon" href="assets/favicons/apple-touch-icon-iphone.png?v={version}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-touch-icon-ipad.png?v={version}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-touch-icon-iphone4.png?v={version}" />
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-touch-icon-ipad3.png?v={version}" />
 </head>
 <body>
 
     <div id="share" class="fixed">
         <ul>
-            <li><a class="facebook" href="#"><i class="icon-facebook-sign"></i></a></li>
-            <li><a class="twitter" href="#"><i class="icon-twitter-sign"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="icon-linkedin-sign"></i></a></li>
-            <li><a class="google" href="#"><i class="icon-google-plus-sign"></i></a></li>
+            <li><a class="facebook" href="http://www.facebook.com/sharer/sharer.php?{{ urlencode('http://contrer-lintimidation.com') }}" target="_blank"><i class="icon-facebook-sign"></i></a></li>
+            <li><a class="twitter" href="http://twitter.com/intent/tweet?text={{ urlencode('http://contrer-lintimidation.com') }}" target="_blank"><i class="icon-twitter-sign"></i></a></li>
+            <li><a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url={{ urlencode('http://contrer-lintimidation.com') }}&title={{ urlencode('Contrer l\'intimidation') }}&summary={{ urlencode('Sommaire') }}&source={{ urlencode('Ellipse Synergie') }}" target="_blank"><i class="icon-linkedin-sign"></i></a></li>
+            <li><a class="google" href="https://plus.google.com/share?{{ urlencode('http://contrer-lintimidation.com') }}" target="_blank"><i class="icon-google-plus-sign"></i></a></li>
         </ul>
         <a href="#">Partager</a>        
     </div>
@@ -47,7 +47,7 @@
     <ol class="curtains">
         <li id="slide-1" class="cover">
             <div id="title" class="fixed">
-                Contrer l'intimidation avec <span>Ellipse Synergie</span>
+                Contrer l'intimidation avec <a href="http://ellipse-synergie.com">Ellipse Synergie</a>
             </div>
             <article>
                 <header>
@@ -100,7 +100,7 @@
     </ol>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="assets/js/base.pack.js"></script>
+    <script src="assets/js/base.pack.js?v={version}"></script>
     <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-26401583-2']);
