@@ -13,6 +13,32 @@ h1, h2, h3, h4, h5 {
     font-weight: normal;
 }
 
+#lang {
+	z-index: 9999;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+	#lang a {
+		display: block;
+		padding: 0 15px;
+		height: 50px;
+		line-height: 50px;
+		color: #222;
+		background-color: #FFF;
+		font-size: 120%;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+
+		#lang a span {
+			display: none;
+		}
+		#lang a:hover span {
+			display: inline;
+		}
+
 #share {
 	z-index: 9999;
 	position: fixed;
