@@ -1,0 +1,19 @@
+
+#slide-1 {
+	background: url('../images/slide-1.jpg') top center no-repeat;
+}
+#slide-2 {
+	background: url('../images/slide-2.jpg') top center no-repeat;
+}
+#slide-3 {
+	background: url('../images/slide-3.jpg') center center no-repeat;
+}
+#slide-4 {
+	background: url('../images/slide-4.jpg') center center no-repeat;
+}
+#slide-5 {
+	background: url('../images/slide-5.jpg') center center no-repeat;
+}
+#slide-6 {
+	background: url('../images/slide-6.jpg') center bottom no-repeat;
+}
