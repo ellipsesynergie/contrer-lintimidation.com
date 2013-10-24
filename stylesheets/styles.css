@@ -102,22 +102,22 @@ body > ol > li {
 	box-shadow: 0 20px 100px #000;
 }
 #slide-1 {
-	background: url('../images/slide-1-1280x.jpg') top center no-repeat;
+	background: url('../images/slide-1.jpg') top center no-repeat;
 }
 #slide-2 {
-	background: url('../images/slide-2-1280x.jpg') top center no-repeat;
+	background: url('../images/slide-2.jpg') top center no-repeat;
 }
 #slide-3 {
-	background: url('../images/slide-3-1280x.jpg') center center no-repeat;
+	background: url('../images/slide-3.jpg') center center no-repeat;
 }
 #slide-4 {
-	background: url('../images/slide-4-1280x.jpg') center center no-repeat;
+	background: url('../images/slide-4.jpg') center center no-repeat;
 }
 #slide-5 {
-	background: url('../images/slide-5-1280x.jpg') center center no-repeat;
+	background: url('../images/slide-5.jpg') center center no-repeat;
 }
 #slide-6 {
-	background: url('../images/slide-6-1280x.jpg') center bottom no-repeat;
+	background: url('../images/slide-6.jpg') center bottom no-repeat;
 }
 
 	#title {
@@ -182,7 +182,7 @@ body > ol > li {
 	}
 
 		#slide-6 p a {
-			font-size: 32px;
+			font-size: 46px;
 			font-family: 'Clicker Script';
 			text-decoration: none;
 			color: #FFF;
@@ -191,51 +191,6 @@ body > ol > li {
 		#slide-6 p a:hover {
 			text-shadow: 5px 5px 0 rgba(255, 255, 255, 0.2);
 		}
-
-/* Big screen */
-@media screen and (min-width: 1281px) {
-
-	body > ol h1 {
-	    font-size: 46px;
-	}
-
-	body > ol .down {
-		font-size: 50px;
-	}
-
-	#slide-1 {
-		background: url('../images/slide-1.jpg') top center no-repeat;
-	}
-	#slide-2 {
-		background: url('../images/slide-2.jpg') top center no-repeat;
-	}
-	#slide-3 {
-		background: url('../images/slide-3.jpg') center center no-repeat;
-	}
-	#slide-4 {
-		background: url('../images/slide-4.jpg') center center no-repeat;
-	}
-	#slide-5 {
-		background: url('../images/slide-5.jpg') center center no-repeat;
-	}
-	#slide-6 {
-		background: url('../images/slide-6.jpg') center bottom no-repeat;
-	}
-
-	.btn {
-		margin-top: 40px;
-		font-size: 32px;
-	}
-
-	#slide-6 p {
-		margin-top: 80px;
-		font-size: 32px;
-	}
-
-		#slide-6 p a {
-			font-size: 60px;
-		}
-}
 
 /* iPhone */
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
