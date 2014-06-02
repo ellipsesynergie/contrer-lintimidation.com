@@ -410,15 +410,25 @@
                 $(self.options.curtainLinks).on('click', function(e){
                     e.preventDefault();
                     var href = $(this).attr('href');
-                    
+
                     if(!self.isHashIsOnList(href.substring(1)) && position)
                         return false;
                     var position = self.$elDatas[$(href).index()]['data-position'] || null;
 
                     if(position){
-                        self.scrollEl.animate({
-                            scrollTop:position
-                        }, self.options.scrollSpeed, self.options.easing);
+
+                        if(!$.iOs4 && ($.iPhone || $.iPad)) {
+
+                            $('body').animate({
+                                scrollTop:position
+                            }, self.options.scrollSpeed, self.options.easing);
+                            
+                        } else {
+
+                            self.scrollEl.animate({
+                                scrollTop:position
+                            }, self.options.scrollSpeed, self.options.easing);
+                        }
                     }
                     return false;
                 });
